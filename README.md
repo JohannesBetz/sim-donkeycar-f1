@@ -1,4 +1,4 @@
-# SdSandbox
+# Donkey Sim - F1 Edition!
 
 Self Driving Car Sandbox
 
