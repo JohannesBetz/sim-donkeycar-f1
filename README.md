@@ -19,24 +19,6 @@ Self Driving Car Sandbox
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/e0AFMilaeMI/0.jpg)](https://www.youtube.com/watch?v=e0AFMilaeMI "self driving car sim")
 
 
-## Summary
-
-Use Unity 3d game engine to simulate car physics in a 3d world.
-Generate image steering pairs to train a neural network. Uses NVidia PilotNet NN topology.
-Then validate the steering control by sending images to your neural network and feed steering back into the simulator to drive.
-
-## Some videos to help you get started
-
-### Training your first network
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/oe7fYuYw8GY/0.jpg)](https://www.youtube.com/watch?v=oe7fYuYw8GY "Getting Started w sdsandbox")
-
-### World complexity
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/FhAKaH3ysow/0.jpg)](https://www.youtube.com/watch?v=FhAKaH3ysow "Making a more interesting world.")
-
-### Creating a robust training set
-
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/_h8l7qoT4zQ/0.jpg)](https://www.youtube.com/watch?v=_h8l7qoT4zQ "Creating a robust sdc.")
-
 ## Setup
 
 You need to have [Unity](https://unity3d.com/get-unity/download) installed, and all python modules listed in the Requirements section below.
@@ -69,75 +51,6 @@ pip install tensorflow
 ```
 
 
-## Demo
-
-1) Load the Unity project sdsandbox/sdsim in Unity. Double click on Assets/Scenes/road_generator to open that scene.  
-
-2) Hit the start button to launch. Then the "Use NN Steering". When you hit this button, the car will disappear. This is normal. You will see one car per client that connects.
-
-3) Start the prediction server with the pre-trained model.
-
-```bash
-cd sdsandbox/src
-python predict_client.py --model=../outputs/highway.h5
-```
- If you get a crash loading this model, you will not be able to run the demo. But you can still generate your own model. This is a problem between tensorflow/keras versions.
-
- Note* You can start multiple clients at the same time and you will see them spawn as they connect.
-
- 
-
-
-#To create your own data and train
-
-## Generate training data
-
-1) Load the Unity project sdsandbox/sdsim in Unity.  
-
-2) Create a dir sdsandbox/sdsim/log.  
-
-3) Hit the start arrow in Unity to launch project.  
-
-4) Hit button "Generate Training Data" to generate image and steering training data. See sdsim/log for output files.  
-
-5) Stop Unity sim by clicking run arrow again.  
-
-6) Run this python script to prepare raw data for training:  
-
-```bash
-cd sdsandbox/src
-python prepare_data.py
-```
-
-7) Repeat 4, 5, 6 until you have lots of training data.
-
-
-
-## Train Neural network
-
-```bash
-python train.py --model=../outputs/mymodel.h5
-```
-
-Let this run. It may take a few hours if running on CPU. Usually far less on a GPU.
-
-
-
-## Run car with NN
-
-1) Start Unity project sdsim  
-
-
-2) Push button "Use NN Steering"
-
-
-3) Start the prediction client. This listens for images and returns a steering result.  
-
-```bash
-python predict_client.py --model=../outputs/mymodel.h5
-```
-
-
 
 ## Requirements
 * [python 3.5+ 64 bit](https://www.python.org/)*
@@ -148,9 +61,9 @@ python predict_client.py --model=../outputs/mymodel.h5
 * [Unity 2018.+](https://unity3d.com/get-unity/download)  
 
 
-**Note: pygame only needed if using mon_and_predict_server.py which gives a live camera feed during inferencing.
-
 
 ## Credits
 
 Tawn Kramer  
+Maximellerbach
+Sydney University Capstone 2020 Students (@robotics-masters)
