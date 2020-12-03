@@ -15,6 +15,8 @@ Self Driving Car Sandbox
 - Shanghai GP Circuit
 - Extra: Sydney Motorsport Park Brabham Circuit
 - Extra: Baby Circuit (Mario Cart)
+- Extra: Robotics Masters CHALLANGE Track
+- Extra: Robotics Masters RACE Track
 
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/e0AFMilaeMI/0.jpg)](https://www.youtube.com/watch?v=e0AFMilaeMI "self driving car sim")
 
