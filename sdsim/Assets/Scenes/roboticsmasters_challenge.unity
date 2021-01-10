@@ -1747,77 +1747,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   label: MainThDisp
---- !u!1001 &2445228507534288934
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2839244956030654339}
-    m_Modifications:
-    - target: {fileID: 1367702473173472, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_Name
-      value: SplitScreenCameras
-      objectReference: {fileID: 0}
-    - target: {fileID: 1442484511959090, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1916162440306946, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2583f9ad305fa814c9808ce6d6479152, type: 3}
---- !u!4 &2445228507534288935 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4734072873036000, guid: 2583f9ad305fa814c9808ce6d6479152,
-    type: 3}
-  m_PrefabInstance: {fileID: 2445228507534288934}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2839244956030654339
 Transform:
   m_ObjectHideFlags: 0
@@ -1829,7 +1758,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 6.5, y: 6.5, z: 6.5}
   m_Children:
-  - {fileID: 2445228507534288935}
   - {fileID: 8383487380775366417}
   - {fileID: 3325962189866655446}
   m_Father: {fileID: 8156509500303531983}
@@ -2072,7 +2000,7 @@ Transform:
   - {fileID: 342565976}
   - {fileID: 1440346504}
   m_Father: {fileID: 2839244956030654339}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4486053292348268301
 MonoBehaviour:
@@ -2698,7 +2626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 432320, guid: 645f2a68cf8d04ca49cec5a0b2dbeae6, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 432320, guid: 645f2a68cf8d04ca49cec5a0b2dbeae6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
