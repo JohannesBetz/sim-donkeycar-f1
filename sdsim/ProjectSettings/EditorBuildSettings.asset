@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/warehouse.unity
     guid: 4483f94080df5d84f9e98fdae085f167
   - enabled: 1
-    path: Assets/Scenes/avc2.unity
-    guid: b362fdcb28a444fa5b719f21d5115c5a
-  - enabled: 1
     path: Assets/Scenes/small_looping_course.unity
     guid: b003bdd73179fe046b15d779a91c20e8
   - enabled: 1
@@ -26,4 +23,43 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/roboracingleague_1.unity
     guid: b37ac42fbc7419143a38115aec8b91ba
+  - enabled: 1
+    path: Assets/Scenes/aws_2018.unity
+    guid: 50eb7e0310d4e5642bfc72137bd96998
+  - enabled: 1
+    path: Assets/Scenes/aws_2019.unity
+    guid: 8e6e7dd414bfafb4490e8568d81433f9
+  - enabled: 1
+    path: Assets/Scenes/baby_mario.unity
+    guid: 8467ae862d8b80b47b604165ed2f628d
+  - enabled: 1
+    path: Assets/Scenes/f1_americas_gp.unity
+    guid: 76a3d55e85b4666ada3375a24c91be78
+  - enabled: 1
+    path: Assets/Scenes/f1_belgium_gp.unity
+    guid: ba356f14754316dde839cf1d9f8f537a
+  - enabled: 1
+    path: Assets/Scenes/f1_hockenheim_gp.unity
+    guid: ac1656de06cc8b6479161bfa4c3b2aef
+  - enabled: 1
+    path: Assets/Scenes/f1_melbourne.unity
+    guid: e94bbbf6e0f6b9d428a08a9185034d9d
+  - enabled: 1
+    path: Assets/Scenes/f1_monaco_gp.unity
+    guid: 1f0c826ce4f77aa43b143d2f8b2ffd3d
+  - enabled: 1
+    path: Assets/Scenes/f1_portimao_gp.unity
+    guid: f11d403da1d33a343b7e3ed0a610e5ec
+  - enabled: 1
+    path: Assets/Scenes/f1_shanghai.unity
+    guid: bccf9f7fc3d8ec34eac0a6b30201bfb9
+  - enabled: 1
+    path: Assets/Scenes/f1_singapore_gp.unity
+    guid: 5c963b7be35ff704e833243dff7e90c6
+  - enabled: 1
+    path: Assets/Scenes/roboticsmasters_challenge.unity
+    guid: 4391b90a9aea36442878339ece7b4281
+  - enabled: 1
+    path: Assets/Scenes/roboticsmasters_race.unity
+    guid: 97a84f901b8b45743a0cc502d5a5fff1
   m_configObjects: {}
