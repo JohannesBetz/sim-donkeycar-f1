@@ -67,5 +67,5 @@ pip install tensorflow
 ## Credits
 
 Tawn Kramer  
-Maximellerbach
+Maximellerbach  
 Sydney University Capstone 2020 Students (@robotics-masters)
