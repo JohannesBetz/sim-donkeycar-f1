@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &88000996 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 1045ea011b3ba5a49beb0423f180fba8,
-    type: 3}
-  m_PrefabInstance: {fileID: 267083115}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &267083115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -226,6 +220,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1045ea011b3ba5a49beb0423f180fba8, type: 3}
+--- !u!4 &267083116 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1045ea011b3ba5a49beb0423f180fba8,
+    type: 3}
+  m_PrefabInstance: {fileID: 267083115}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &684627802
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,26 +318,6 @@ Transform:
   m_Father: {fileID: 8090523490812009203}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 40, y: -30, z: 0}
---- !u!1 &687364886 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8051415255134806348, guid: 1045ea011b3ba5a49beb0423f180fba8,
-    type: 3}
-  m_PrefabInstance: {fileID: 267083115}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &687364890
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 687364886}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -462981019419857548, guid: 1045ea011b3ba5a49beb0423f180fba8, type: 3}
 --- !u!4 &227712126291237061
 Transform:
   m_ObjectHideFlags: 0
@@ -1232,7 +1212,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1994800598336960041}
-  - {fileID: 88000996}
+  - {fileID: 267083116}
   - {fileID: 684627804}
   m_Father: {fileID: 8721333911611413414}
   m_RootOrder: 1
@@ -1351,6 +1331,12 @@ PrefabInstance:
       propertyPath: startsTm.Array.data[0]
       value: 
       objectReference: {fileID: 1994800598336960041}
+    - target: {fileID: 114310221196961066, guid: 89b891dc9d0fe46ffba6fbc78477652f,
+        type: 3}
+      propertyPath: carPrefab
+      value: 
+      objectReference: {fileID: 1382209123900052, guid: fce36e5f76b9c034e83a000a7097fa9d,
+        type: 3}
     - target: {fileID: 114576669822105592, guid: 89b891dc9d0fe46ffba6fbc78477652f,
         type: 3}
       propertyPath: challenges_obj.Array.size

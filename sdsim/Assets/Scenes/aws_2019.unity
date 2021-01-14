@@ -138,6 +138,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4401132849208269788, guid: 823d0c7739d3ffc4da1466e8dd61ca67,
+        type: 3}
+      propertyPath: carPrefab
+      value: 
+      objectReference: {fileID: 1382209123900052, guid: fce36e5f76b9c034e83a000a7097fa9d,
+        type: 3}
     - target: {fileID: 5767380761020921195, guid: 823d0c7739d3ffc4da1466e8dd61ca67,
         type: 3}
       propertyPath: m_LocalPosition.z

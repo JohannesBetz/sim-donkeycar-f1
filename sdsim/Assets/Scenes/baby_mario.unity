@@ -1394,6 +1394,12 @@ PrefabInstance:
       propertyPath: startsTm.Array.data[0]
       value: 
       objectReference: {fileID: 665373225342231757}
+    - target: {fileID: 114310221196961066, guid: 89b891dc9d0fe46ffba6fbc78477652f,
+        type: 3}
+      propertyPath: carPrefab
+      value: 
+      objectReference: {fileID: 1382209123900052, guid: fce36e5f76b9c034e83a000a7097fa9d,
+        type: 3}
     - target: {fileID: 114576669822105592, guid: 89b891dc9d0fe46ffba6fbc78477652f,
         type: 3}
       propertyPath: challenges_obj.Array.size
