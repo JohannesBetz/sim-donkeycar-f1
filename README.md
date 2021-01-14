@@ -17,6 +17,8 @@ Self Driving Car Sandbox
 - Extra: Baby Circuit (Mario Cart)
 - Extra: Robotics Masters CHALLANGE Track
 - Extra: Robotics Masters RACE Track
+- Extra: AWS 2018 Circuit
+- Extra: AWS 2019 Circuit
 
 
 ## Setup
