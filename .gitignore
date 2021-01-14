@@ -1,3 +1,4 @@
+*.meta
 *.pyc
 *.h5
 sdsim/obj
