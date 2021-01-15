@@ -2979,19 +2979,19 @@ MonoBehaviour:
   - generated_track
   - roboracingleague_1
   - waveshare
-  - aws_2018
+  - aws_2018,AWS DeepRacer League (2018)
   - aws_2019,AWS DeepRacer League (2019)
-  - f1_americas_gp
-  - f1_belgium_gp
-  - f1_hockenheim_gp
-  - f1_melbourne
-  - f1_monaco_gp
-  - f1_portimao_gp
-  - f1_shangahi_gp
-  - f1_singapore_gp
-  - roboticsmasters_challenge
-  - roboticsmasters_race
-  - baby_mario
+  - f1_americas_gp,Circuit of Americas (USA)
+  - f1_belgium_gp,Circuit de Spa-Francorchamps (Belgium)
+  - "f1_hockenheim_gp,N\xFCrburgring GP Circuit (Germany)"
+  - f1_melbourne,Albert Park GP Circuit (Melbourne)
+  - f1_monaco_gp,Circuit de Monaco (Monte Carlo)
+  - f1_portimao_gp,Algrave International Circuit (Portugal)
+  - f1_shanghai_gp,Shanghai GP Circuit (China)
+  - f1_singapore_gp,Marina Bay Street Circuit (Singapore)
+  - roboticsmasters_challenge,RM Challenge
+  - roboticsmasters_race, RM Race
+  - baby_mario,Baby Mario (Mario Cart)
   ButtonGridLayout: {fileID: 126483964}
   ButtonPrefab: {fileID: 5466719870426124411, guid: fb93d9878115b39438221fec2f89f2ae,
     type: 3}
