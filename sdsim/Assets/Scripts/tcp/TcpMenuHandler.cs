@@ -121,6 +121,18 @@ namespace tk
 
         void AddButtonToMenu(string scene_name)
         {   
+			// split scene name and human readable name
+			string human_name;
+			
+			string[] textSplit = scene_name.Split(',');
+			
+			if ( textSplit.Length == 2 ){
+				human_name = textSplit[1];
+				scene_name = textSplit[0];
+			} else {
+				human_name = scene_name;
+			};
+			
             // create a new button and add it to the grid layout
             GameObject go = Instantiate(ButtonPrefab);
             go.name = scene_name;
@@ -134,7 +146,7 @@ namespace tk
             // modify the text to match the scene_name
             GameObject text_go = go.transform.GetChild(0).gameObject;
             Text text = text_go.GetComponent<Text>();
-            text.text = scene_name;
+            text.text = human_name;
 
             // try to load the preview image located in the Resources folder
             Texture2D texture = Resources.Load<Texture2D>("UI/"+scene_name);
