@@ -3307,7 +3307,7 @@ MonoBehaviour:
   - f1_shanghai_gp,Shanghai GP Circuit (China)
   - f1_singapore_gp,Marina Bay Street Circuit (Singapore)
   - roboticsmasters_challenge,RM Challenge
-  - roboticsmasters_race, RM Race
+  - roboticsmasters_race,RM Race
   - baby_mario,Baby Mario (Mario Cart)
   ButtonGridLayout: {fileID: 126483964}
   ButtonPrefab: {fileID: 5466719870426124411, guid: fb93d9878115b39438221fec2f89f2ae,
